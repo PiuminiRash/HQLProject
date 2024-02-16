@@ -12,6 +12,7 @@ public class main {
         Session session = FactoryConfiguration.getInstance().getSession();
         Transaction transaction = session.beginTransaction();
 
+
 //        Query query = session.createQuery("FROM Book WHERE publicationYear > 2010", Book.class);
 //        List<Book> books = query.list();
 //
